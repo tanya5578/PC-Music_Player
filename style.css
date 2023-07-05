@@ -1,0 +1,140 @@
+h1{
+    font-style:normal;
+    color:white;
+    text-align: center;
+    margin-top: 40px;
+}
+body{
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    border: solid transparent;
+}
+.container{
+    width: 400px;
+    height: 450px;
+    margin-left: 555px;
+    margin-top: 50px;
+    background-color: white;
+    align-items: center;
+    border-radius: 15%;
+}
+.SongName{
+    color: rgb(202, 169, 239);
+}
+.play{
+    border-radius: 50%;
+    padding: 13px;
+    background-color: rgb(188, 216, 245);
+    margin-left: 10px;
+}
+.next{
+    border-radius: 50%;
+    padding: 12px;
+    background-color: rgb(188, 216, 245);
+    margin-left: 10px;
+}
+
+.prei{
+    border-radius: 50%;
+    padding: 12px;
+    background-color: rgb(188, 216, 245);
+    margin-left: 123px;
+}
+
+/* .inner{
+
+    width: 233px;
+    border-radius: 25px;
+
+    margin: auto 32rem;
+    margin-top: -52px;
+} */
+
+img{
+    max-width: 100%;  
+    height: auto;
+}
+.none{
+    height: 207px;
+    width: 228px;
+    margin-left: 88px;
+}
+
+.ok {
+    font-style: normal;
+    font-family: "fantasy";
+    color:rgb(48, 116, 185);
+    font-size-adjust: initial;
+    text-align: center;
+}
+.level{
+    width: 212px;
+    border-radius: 25px;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 27px;
+    margin-left: 6px;
+}
+
+.progress-container {
+    background: rgb(48, 116, 185);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 88px 20px;
+    height: 8px;
+    width: 57%;
+  }
+
+  .progress {
+    background-color: black;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+  }
+  footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(136, 76, 208);
+    color:rgb(247, 245, 249);
+    text-align: center;
+
+  }
+
+
+/* @media (max-width:768px){
+
+      .container{
+          display: block;
+          margin: auto;
+      }
+      .inner{
+
+        width: 100%;
+
+
+
+
+
+    }
+}
+@media (max-width:468px){
+    .inner{
+        padding: 0%;
+        box-sizing: border-box;
+        margin-left: 20%;
+    }
+}
+
+@media (min-width:1024){
+    .inner{
+        width: 100%;
+        padding: 0%;
+        box-sizing: border-box;
+        margin:auto 35%;
+
+    }
+} */
